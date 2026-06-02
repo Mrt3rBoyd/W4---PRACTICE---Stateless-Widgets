@@ -1,6 +1,8 @@
 /*
 //Ex1
 
+
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,27 +10,37 @@ void main() {
     home: Scaffold(
       backgroundColor: Colors.grey,
       body: Padding(
-        padding: EdgeInsets.all(10),
+        padding: EdgeInsets.all(100),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
 
             Container(
-              padding: EdgeInsets.all(10),
+              padding: EdgeInsets.all(100),
               margin: EdgeInsets.all(20),
               decoration: BoxDecoration(
-                color: Colors.green,
+                color: Colors.green, 
               ),
-              child: Text("Travelling"),
+              child: Text(
+                "Travelling",
+                
+              ),
             ),
 
             Container(
-              padding: EdgeInsets.all(10),
+              padding: EdgeInsets.all(100),
               margin: EdgeInsets.all(20),
               decoration: BoxDecoration(color: Colors.blueGrey),
 
-              child: Text("Skating"),
-              ),
+              child: Text(
+                "Skating",
+                
+                
+                
+                ),
+              ), 
+                
+              
             
       
 
