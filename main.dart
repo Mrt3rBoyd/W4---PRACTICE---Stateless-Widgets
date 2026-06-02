@@ -1,44 +1,44 @@
 /*
 //Ex1
-Ex1
-import 'package:flutter/material.dart';
-void main(){
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        body: Padding(
-          child: Column(
-            crossAxisAlignment: ,
-            children: [
-              Container(
-                child: Center(
-                  Row(
-                    Padding(
-                      "Travelling",
-                      
-                    ),
-                  ),
-                ),
-              ),
 
-              Container(
-                child: Center(
-                  Row(
-                    Padding(
-                      "Skating",
-                      
-                    ),
-                  ),
-                ),
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(
+    home: Scaffold(
+      backgroundColor: Colors.grey,
+      body: Padding(
+        padding: EdgeInsets.all(10),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+
+            Container(
+              padding: EdgeInsets.all(10),
+              margin: EdgeInsets.all(20),
+              decoration: BoxDecoration(
+                color: Colors.green,
               ),
-              
-            ],     
-          ),
+              child: Text("Travelling"),
+            ),
+
+            Container(
+              padding: EdgeInsets.all(10),
+              margin: EdgeInsets.all(20),
+              decoration: BoxDecoration(color: Colors.blueGrey),
+
+              child: Text("Skating"),
+              ),
+            
+      
+
+          ],
         ),
-      ),
-    ),
-  ),
+       ),
+    )));
 }
+
+
 */
 
 
